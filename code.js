@@ -2,3 +2,8 @@
 // and select "Open with Live Server"
 
 // Your Code Here.
+let position = navigator.geolocation.getCurrentPosition(handlePosition) 
+console.log(position)
+function handlePosition (){
+    console.log(position)
+}
